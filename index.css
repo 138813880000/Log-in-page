@@ -1,0 +1,204 @@
+body{
+    overflow-x: inherit;
+    overflow-y:hidden;
+}
+*{
+    margin: 0 auto;
+}
+#left-2, #right-2{
+    display: none;
+}
+body{
+    background-color: white;
+    font-family: roboto;
+    font-weight: 400;
+    background-color: rgb(233, 223, 223);
+}
+.bg-darkred{
+    background-color: #701c1c;
+}
+nav{
+    width: 100%;
+    height: 3.5rem;
+    background-color: #701c1c;
+    box-shadow: 0 7px 15px black;
+}
+#meno1 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    line-height: 3.5rem;
+    padding: 0 0.5rem;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#meno1 a:hover{
+    background-color: #701c1c;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+main{
+    width: 60rem;
+    height: 32rem;
+    background-color: white;
+    margin: 5rem auto 0 auto;
+}
+main section{
+    width: 50%;
+    height: inherit;
+    float: left;
+    text-align: center;
+}
+main section > div{
+    height: 100%;
+}
+main section input[type='email'], main section input[type='password']{
+    width: 80%;
+    height: 2.5rem;
+    background-color: rgb(217, 217, 217);
+    border: 2px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+    padding-left: 0.5rem;
+}
+main section a{
+    display: block;
+    text-decoration: none;
+}
+main section input[type='submit']{
+    background-color: #701c1c;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    font-size: 20px;
+    border-radius: 1.2rem;
+    font-weight: bold;
+    border: 2px solid #701c1c;
+    letter-spacing: 0.1rem;
+}
+main section input[type='submit']:hover{
+    background-color: white;
+    color: darkred;
+}
+main section .controler{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 0.5rem 2.5rem;
+    border-radius: 1.2rem;
+    background-color: #701c1c;
+    color: black;
+    border: 3px solid black;
+    font-size: 20px;
+}
+main section .controler:hover{
+    background-color: #701c1c;
+    color: white;
+    border: 3px solid white;
+    font-weight: bold;
+}
+.btn{
+    width: 3rem;
+    height: 3rem;
+}
+.btn-circle{
+    border-radius: 50%;
+}
+.btn-facebook{
+    border: 5px outset #1577f2;
+    background-color: #1577f2;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-google{
+    border: 5px outset #701c1c;
+    background-color: #701c1c;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+.btn-linkdin{
+    border: 5px outset #0a66c2;
+    background-color: #0a66c2;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hover:hover{
+    color: white;
+}
+.hover2:hover{
+    border: 2px solid black;
+}
+h1{
+    font-size: 2.5rem;
+}
+#left-1 h1{
+    margin-top: 4rem;
+}
+.margin-top{
+    margin-top: 2rem;
+}
+.margin-top2{
+    margin-top: 1rem;
+}
+#left-1 p{
+    margin: 1rem 0;
+}
+.margin-buttom{
+    margin-bottom: 1.5rem;
+}
+#right-2 h1{
+    margin-bottom: 4rem;
+}
+.margin-buttom2{
+    margin-bottom: 3rem;
+}
+main section a{
+    color: black;
+}
+main section a:hover{
+    color: #701c1c;
+}
+#right-1 h1{
+    margin-top: 34%;
+}
+#right-1 p{
+    margin-bottom: 2rem;
+}
+#right-1 h1{
+    margin-bottom: 1rem;
+}
+#left-2 h1{
+    margin-top: 36%;
+}
+#left-2 p{
+    margin-top: 1rem;
+}
+.white-to-red{
+    background-color: white;
+    animation: wtr 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes wtr{
+    from{background-color: white;}
+    to{background-color: #701c1c;}
+}
+.red-to-white{
+    background-color: black;
+    animation: rtw 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes rtw{
+    from{background-color: #701c1c;}
+    to{background-color: white;}
+}
+#right-2 h1{
+    margin-top: 3rem;
+}
+section{
+    border-radius: 2mm;
+    box-shadow: 10px 10px 20px black;
+}
+main{
+    border-radius: 2mm;
+}
